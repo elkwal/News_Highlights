@@ -1,5 +1,5 @@
-mport unittest
-from .models import Sources
+import unittest
+from ..models import Source
 
 
 class SourcesTest(unittest.TestCase):
@@ -15,15 +15,15 @@ class SourcesTest(unittest.TestCase):
                                   'ke')
 
     def test_instance(self):
-        self.assertTrue(isinstance(self.new_source, Sources))
+        self.assertTrue(isinstance(self.new_source, Source))
 
     def test_to_check_instance_variables(self):
         """
         Test function to check instance variables
         """
-        self.assertEquals(self.new_source.id, 'newsbykellen')
+        self.assertEquals(self.new_source.id, 'newsbyelkwal')
         self.assertEquals(self.new_source.name, 'My News')
         self.assertEquals(self.new_source.description, 'get  the latest updates')
         self.assertEquals(self.new_source.url, 'https://google.com')
         self.assertEquals(self.new_source.category, 'general')
-        self.assertEquals(self.new_source.country, 'ke')
+        self.assertEquals(self.new_source.country, 'kenya')
