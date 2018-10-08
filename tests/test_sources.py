@@ -13,3 +13,8 @@ class SourcesTest(unittest.TestCase):
         """
         self.new_source = Sources('newsbyGatetee', 'My News', 'get the latest updates', 'https://google.com', 'general',
                                   'ke')
+
+    def test_instance(self):
+        self.assertTrue(isinstance(self.new_source, Source))
+
+    
