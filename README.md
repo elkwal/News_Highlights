@@ -10,3 +10,7 @@ A python based application that will helps users list and preview news articles 
 
 ## Known Bugs
 No known bugs
+## Technologies Used
+python
+Html
+Css
