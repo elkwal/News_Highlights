@@ -14,3 +14,5 @@ No known bugs
 python
 Html
 Css
+## Support and contact details
+My email address is elukwal@gmail.com or contact me if you need any help at 0712345678
