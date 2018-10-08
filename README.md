@@ -7,3 +7,6 @@ A python based application that will helps users list and preview news articles 
 *   `cd News`
 *  `atom .`
 * `run localhost`
+
+## Known Bugs
+No known bugs
